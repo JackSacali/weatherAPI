@@ -1,0 +1,22 @@
+.box {
+    width: 600px;
+}
+
+.main {
+    font-size: 4em;
+}
+
+#facebook {   
+    font-size: 1em;
+}
+#twitter {    
+    font-size: 1em;
+}
+#button {
+    width: 260px;
+    height: 42px;
+    margin-right: 0px;
+}
+#location {
+   width: 65%;
+}

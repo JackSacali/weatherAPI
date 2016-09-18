@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Weather API</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+      <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/responsive.css" />
+      <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+      <script type="text/javascript" src="js/function.js"></script>
+      
+  </head>
+  <body>
+      <div class="container">
+          <div class="box">
+              <div class="content">
+                  <p class="main">
+                  <span id="city">.</span>, <span id="country">.</span><br>
+                  <span id="weather">.</span><span id="scale">.</span><br>
+                  <span id="icon">.</span>
+                  </p>     
+                  <a id="facebook" href="http://www.facebook.com"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                  <a id="twitter" href="http://www.twitter.com"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>                  
+                  <div id="button" ><input type="text" placeholder=" Another location..." name="q" id="location" onkeypress="getWeather()" ></input><span onclick="getWeather()">&nbsp; search city</span></div>
+              </div>
+          </div>
+      </div>
+      
+      <script type="text/javascript">
+          window.onload = showPosition();          
+      </script>
+  </body>
+</html>
