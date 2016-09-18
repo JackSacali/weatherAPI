@@ -21,7 +21,7 @@
                   </p>     
                   <a id="facebook" href="http://www.facebook.com"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>&nbsp;&nbsp;
                   <a id="twitter" href="http://www.twitter.com"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>                  
-                  <div id="button" ><input type="text" placeholder=" Another location..." name="q" id="location" onkeypress="getWeather()" ></input><span onclick="getWeather()">&nbsp; search city</span></div>
+                  <div id="button" ><input type="text" placeholder=" Another location..." name="q" id="location" onclick="this.select()" onKeyDown="if(event.keyCode==13) getWeather();" ></input><span onclick="getWeather()">&nbsp; search city</span></div>
               </div>
           </div>
       </div>

@@ -1,4 +1,4 @@
-var tempCF = "<span id=\"scale\" onclick=\"temperatureScale()\"> &deg;C</span>";
+var tempCF = "<span id=\"scale\" onclick=\"temperatureScale()\"> &deg;C</span>"; 
 var scale = 0;
 
 var options = {
